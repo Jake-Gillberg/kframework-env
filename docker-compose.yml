@@ -1,0 +1,9 @@
+version: '3.4'
+services:
+    
+    kframework:
+        container_name: kframework
+        image: kframework-image
+        build: .
+        tty: true
+        network_mode: "host"
